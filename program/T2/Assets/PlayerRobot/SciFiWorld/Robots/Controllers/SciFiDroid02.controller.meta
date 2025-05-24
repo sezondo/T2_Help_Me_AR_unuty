@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bd5e948a90dac0440b0f9ffaf4c8f99b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 269210
+  packageName: Sci-Fi Robots Wheeled
+  packageVersion: 1.1
+  assetPath: Assets/TirgamesAssets/SciFiWorld/Robots/Controllers/SciFiDroid02.controller
+  uploadId: 728144

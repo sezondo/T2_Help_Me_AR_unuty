@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 01c6754a28a520d41aa1252b90428467
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 269210
+  packageName: Sci-Fi Robots Wheeled
+  packageVersion: 1.1
+  assetPath: Assets/TirgamesAssets/SciFiWorld/Shared/Particles/Materials/PLightingAtlas01.mat
+  uploadId: 728144
