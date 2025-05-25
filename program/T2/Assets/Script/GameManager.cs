@@ -14,8 +14,6 @@ public class GameManager : MonoBehaviour
     public Text textRecord;
     public Text timeText;
 
-    public GameObject gamePrefab;
-
     void Awake()
     {
 	    Application.targetFrameRate = 60;
@@ -23,10 +21,7 @@ public class GameManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        GameObject go = Instantiate(gamePrefab);
-        go.transform.position = ARPlacementInfo.position;
-        go.transform.rotation = ARPlacementInfo.rotation;
-        go.transform.localScale = ARPlacementInfo.scale;
+        
     }
 
     // Update is called once per frame
