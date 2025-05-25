@@ -23,7 +23,7 @@ public class EndScene : MonoBehaviour
     public void Retry()
     {
 
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("StartScene");
 
     }
 
