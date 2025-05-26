@@ -1,2 +1,3 @@
 C:\Users\psdd2\Desktop\project\T2_Help_Me_AR_unuty\program\T2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\psdd2\Desktop\project\T2_Help_Me_AR_unuty\program\T2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\FramePacing\CMakeLists.txt
 C:\Users\psdd2\Desktop\project\T2_Help_Me_AR_unuty\program\T2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

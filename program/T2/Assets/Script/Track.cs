@@ -8,9 +8,12 @@ public class Track : MonoBehaviour
 {
     public ARTrackedImageManager manager;
     public List<GameObject> list1 = new List<GameObject>();
-    private Dictionary<string, GameObject> dict1 = new Dictionary<string, GameObject>();
+    private Dictionary<string, GameObject> dict1
+                                    = new Dictionary<string, GameObject>();
  
-                     
+    public List<AudioClip> list2 = new List<AudioClip>();
+    Dictionary<string, AudioClip> dict2
+                            = new Dictionary<string, AudioClip>();                        
  
  
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -21,7 +24,10 @@ public class Track : MonoBehaviour
             dict1.Add(o.name, o);
         }
  
-        
+        foreach (AudioClip o in list2)
+        {
+            dict2.Add(o.name, o);
+        }
  
     }
 
@@ -35,7 +41,13 @@ public class Track : MonoBehaviour
         o.SetActive(true);
     }
  
-    
+    void UpdateSound(ARTrackedImage t)
+    {
+        string name = t.referenceImage.name;
+ 
+        AudioClip o = dict2[name];
+        GetComponent<AudioSource>().PlayOneShot(o);
+    }
  
  
     void OnChanged(ARTrackablesChangedEventArgs<ARTrackedImage> eventArgs)
@@ -44,7 +56,7 @@ public class Track : MonoBehaviour
         {
             // Handle added event
             UpdateImage(t);
-            
+            UpdateSound(t);
         }
  
         foreach (var t in eventArgs.updated)
@@ -59,12 +71,13 @@ public class Track : MonoBehaviour
         }
     }
  
+ 
+ 
     void OnEnable() => manager.trackablesChanged.AddListener(OnChanged);
+ 
     void OnDisable() => manager.trackablesChanged.RemoveListener(OnChanged);
  
-    
  
-    
  
  
     // Update is called once per frame

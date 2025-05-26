@@ -1,12 +1,5 @@
 fileFormatVersion: 2
 guid: 32c4521ad4f33b945bebbf548998a96d
-AssetOrigin:
-  serializedVersion: 1
-  productId: 268984
-  packageName: Droll Robots Pack1
-  packageVersion: 1.0
-  assetPath: Assets/GrigoriyArx/DrollRobots/Models/Rob02/Rob02.fbx
-  uploadId: 623943
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -28,6 +21,8 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 1
     motionNodeName: Armature/root
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -605,7 +600,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 1
@@ -784,3 +779,10 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 268984
+  packageName: Droll Robots Pack1
+  packageVersion: 1.0
+  assetPath: Assets/GrigoriyArx/DrollRobots/Models/Rob02/Rob02.fbx
+  uploadId: 623943
