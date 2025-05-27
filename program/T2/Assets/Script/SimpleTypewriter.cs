@@ -8,7 +8,7 @@ public class SimpleTypewriter : MonoBehaviour
 
     public Text infoText;
     [TextArea] public string infoFullText; // Inspector에서 편집
-    public float typeSpeed = 0.05f;
+    public float typeSpeed = 0.5f;
     public Button exisButton;
     private Coroutine typingCoroutine;
 
